@@ -1,0 +1,115 @@
+/* Reset */
+html{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h1, h2, p, input{
+    text-align: center;
+
+}
+
+h1, h2, h3, input, .header,html, #app{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input{
+    border: .1rem solid lightgray;
+    border-radius: 10px;
+}
+
+
+
+/* Theme */
+
+.scrolltop{
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+.scrolltop span {
+    width: 1rem;
+    height: 1rem;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 9rem;
+}
+
+
+h2{
+    margin-bottom: 2rem !important;
+}
+
+.list-task{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 90%;
+    padding: .8rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.icons-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: .8rem;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#addTask{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 5rem;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.form-ajout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    padding-right: .4rem;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+}
+
